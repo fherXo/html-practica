@@ -31,5 +31,12 @@
     <p id="text">
       Este es un texto que cambiará cuando se haga clic en el botón anterior.
     </p>
+    <script>
+      document
+        .getElementById("myButton")
+        .addEventListener("click", function() {
+          document.getElementById("text").innerHTML="El botón fue presionado";
+        })
+    </script>
   </body>
 </html>
